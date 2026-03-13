@@ -7,14 +7,14 @@ pour faire votre dashbord animé.
 
 Voici quelques conseilles:
 
-- redimensionner les images en reduisant la taille en fonction de ce que vous voulez afficher,
+- Redimensionner les images en reduisant la taille en fonction de ce que vous voulez afficher,
   un icon ne fait que quelques octets, donc eviter de mettre des images de 1Mo ou 2 Mo.
-- si vous voulez animer une image qui se déplace tout en superposant l'arriere plan,
+- Si vous voulez animer une image qui se déplace tout en superposant l'arriere plan,
   il faut que cette image soit en format PGN avec fond transparent. En fait l'image est
   decoupée et tout le fond est transparent de tel sorte que cette image apparesse
   en superposition.
 - Il vaut mieux mettre tout ce qui est statique en image de fond pour eviter de surcharger
   le dashbord, surtout s'il y a beaucoups de conditions ou d'animations dans le dashbord.
-- copiez de la ligne 1960 à 2234 directement dans le yaml de la carte "elements image".
-  puis copier un bout de code comme par exemple telecommande Nice en changent l'image
+- Copiez de la ligne 1960 à 2234 directement dans le yaml de la carte "elements image".
+  Puis copier un bout de code comme par exemple telecommande Nice en changent l'image
   pour essais.
